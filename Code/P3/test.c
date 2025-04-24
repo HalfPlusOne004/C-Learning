@@ -7,8 +7,7 @@ int main()
     printf("%d\n", sizeof(char));		// 1（byte）
     printf("%d\n", sizeof(short));		// 2（byte）
     printf("%d\n", sizeof(int));		// 4
-    // C语言规定：sizeof(long) >= sizeof(int)
-    printf("%d\n", sizeof(long));		// 4
+    printf("%d\n", sizeof(long));		// 4 C语言规定：sizeof(long) >= sizeof(int)
     printf("%zu\n", sizeof(long long));	// 4
     printf("%zu\n", sizeof(float));		// 8
     printf("%zu\n", sizeof(double));	// 4
