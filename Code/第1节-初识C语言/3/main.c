@@ -12,5 +12,9 @@ int main()
     printf("%zu\n", sizeof(float));		// 8
     printf("%zu\n", sizeof(double));	// 4
     printf("%zu\n", sizeof(long double));// 8
+
+    // 类型的使用
+    int age = 20; // 向内存申请了一个4byte的空间，命名为age，并存入值20
+    double price = 66.6;
     return 0;
 }
